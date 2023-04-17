@@ -1,6 +1,6 @@
 const { expect, assert } = require('chai');
-const { testOptional } = require('../extensions/index.js');
-const { dateSample } = require('../src/carbon-dating.js');
+const { testOptional } = require('../../extensions/index.js');
+const { dateSample } = require('../../src/carbon-dating.js');
 
 it.optional = testOptional;
 

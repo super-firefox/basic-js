@@ -1,6 +1,6 @@
 const { assert } = require('chai');
-const { testOptional } = require('../extensions/index.js');
-const { getEmailDomain } = require('../src/get-email-domain.js');
+const { testOptional } = require('../../extensions/index.js');
+const { getEmailDomain } = require('../../src/get-email-domain.js');
 
 it.optional = testOptional;
 
